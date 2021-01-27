@@ -194,7 +194,7 @@ static inline int pwm_blink_disable
 
 static inline int pwm_set_blink_times(struct meson_pwm *meson,
 								int index,
-								int value);
+								int value)
 {
 	return -EINVAL;
 }
